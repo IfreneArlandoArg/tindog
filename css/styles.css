@@ -19,6 +19,10 @@ p{
     background-color: #fff;
 }
 
+.white-section a :hover{
+    color: darkgray;
+}
+
 /*Headings*/
 .big-heading{
     font-size: 3.5rem;
@@ -115,7 +119,7 @@ p{
     margin: 20px 20px 50px;
 }
 /*
-we solved that with .container-fluid...
+Solved that with .container-fluid...
 .carousel-item{
     Allows us to keep the carousel buttons out of our content"testimonial" frame...
     padding: 7% 15%;
@@ -156,9 +160,11 @@ we solved that with .container-fluid...
 #footer{
     padding: 1.5%;   
 }
+
 .social-contact {
     margin: 20px 10px;
     cursor: pointer;
+    color: black;
 }
 .txt_footer{
     padding: 0;
